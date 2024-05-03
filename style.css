@@ -1,0 +1,161 @@
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#men {
+    display: flex;
+    gap: 30px;
+}
+
+#men>button {
+    border: 1px solid white;
+    background-color: white;
+    padding-top: -25px;
+
+    font-weight: bold;
+    color: rgb(86, 83, 83);
+}
+#men button:hover {
+border-bottom: 2px solid rgb(13, 13, 46);
+color: rgb(13, 13, 46);
+cursor: pointer;
+}
+
+/* .snav img:hover {
+border-bottom: 2px solid rgb(13, 13, 46);
+color: rgb(13, 13, 46);
+cursor: pointer;
+} */
+
+#inp>input {
+    width: 450px;
+    padding: 12px;
+    margin-top: 15px;
+    background-color: rgb(246, 244, 244);
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#img1>img {
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+}
+
+#acc>div>img {
+    height: 18px;
+    width: 18px;
+    margin-top: 18px;
+}
+
+#acc>div>p {
+    margin-top: -1px;
+    margin-left: -5px;
+    font-size: 13px;
+}
+
+#acc {
+    display: flex;
+    gap: 30px;
+}
+#acc p:hover {
+border-bottom: 2px solid rgb(13, 13, 46);
+color: rgb(13, 13, 46);
+cursor: pointer;
+}
+
+#flat {
+    width: 100%;
+    height: 640px;
+}
+
+#offer {
+    width: 100%;
+    height: 450px;
+}
+
+#off {
+    width: 100%;
+    height: 300px;
+}
+
+#budget {
+    width: 100%;
+    height: 100px;
+}
+
+#budget1 {
+    width: 100%;
+    height: 400px;
+}
+#cloth{
+    width: 100%;
+    height: 100px;
+}
+#clothing{
+    width: 100%;
+    height: 400px;
+}
+
+#cate {
+    width: 100%;
+    height: 200px;
+}
+
+#container {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#container>div {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* border: 5px solid blue; */
+    border-radius: 5px;
+    padding: 20px;
+    margin-left: 20px;
+}
+#container div:hover {
+border-bottom: 2px solid rgb(13, 13, 46);
+color: rgb(13, 13, 46);
+cursor: pointer;
+}
+
+img {
+    width: 200px;
+    height: 250px;
+
+}
+
+#name {
+    font-size: large;
+    font-weight: bold;
+}
+
+.desc {
+    color: gray;
+    margin-top: -10px;
+}
+
+.price {
+    font-weight: bold;
+    margin-top: -5px;
+}
+
+#play {
+    width: 100%;
+    height: 300px;
+}
+
+#selec {
+    padding: 10px;
+    margin-left: 88%;
+    border: 3px solid blue;
+    color: rgb(0, 0, 0);
+}

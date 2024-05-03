@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myntra Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="navbar">
+        <div id="img1">
+            <img src="https://cdn.iconscout.com/icon/free/png-512/free-myntra-2709168-2249158.png?f=webp&w=256"
+                alt="myntra icon">
+        </div>
+        <div id="men">
+            <button>MEN</button><button>WOMEN</button><button>KIDS</button><button>HOME &
+                LIVING</button><button>BEAUTY</button><button>STUDIO</button>
+        </div>
+        <div id="inp">
+            <input placeholder="Search for Product & More">
+        </div>
+        <div id="acc">
+            <div>
+                <img src="https://cdn-icons-png.freepik.com/256/848/848043.png?semt=ais_hybrid">
+                <p>Profile</p>
+            </div>
+            <div>
+                <img src="https://static-00.iconduck.com/assets.00/wishlist-icon-2048x1952-13b2gake.png">
+                <p>Wishlist</p>
+            </div>
+            <div>
+                <img src="https://cdn.iconscout.com/icon/free/png-256/free-shopping-bag-1970453-1669843.png">
+                <p>Bag</p>
+            </div>
+        </div>
+    </div>
+    <div>
+        <img id="flat" src="flat.png.jpg">
+        <img id="offer" src="offer.png.jpg">
+        <img id="off" src="get.png">
+        <img id="budget" src="budget.png">
+        <img id="budget1" src="budget1.png">
+        <img id="cloth" src="clothing.png">
+        <img id="clothing" src="clothing1.png">
+        <img id="cate" src="category.png.jpg">
+    </div>
+    <select name="filter by price" id="selec" onchange="filterfn()">
+        <option value="">Filter Items by Price</option>
+        <option value="one">less than = 1000</option>
+        <option value="two">1001 to 2000</option>
+        <option value="three">2000 and above</option>
+    </select>
+    <div id="container"></div>
+    <img id="play" src="play.png.jpg">
+</body>
+<script src="script.js"></script>
+
+</html>
